@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>URL Shortener</title>
+        <link rel="stylesheet" href="url-shortner.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to the URL Shortening Landing Page</h1>
+            <form id = "url-shortner">
+                <input type="url" name="url" id="long-url" placeholder="Enter your URL here" required>
+                <button type="submit">Shorten</button>
+            </form>
+            <div id = "url-result" class="hidden">
+                <p><b> Shortened URL: </b>  <a id="shortened-url" href="#" target="_blank"></a></p>
+            </div>
+        </div>
+        <script src="url-shortner.js"></script>
+    </body>
+</html>
