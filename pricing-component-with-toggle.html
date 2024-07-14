@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Component with Toggle</title>
+    <link rel="stylesheet" href="static/css/pricing-component-with-toggle.css">
+</head>
+<body>
+    <div class="pricing-container">
+        <h1>Our Pricing Plans</h1>
+        <div class="toggle-switch">
+            <label class="switch">
+                <input type="checkbox" id="pricingToggle">
+                <span class="slider"></span>
+            </label>
+            <span id="billingPeriod">Monthly</span>
+        </div>
+        <div class="pricing-plans">
+            <div class="plan">
+                <h2>Lite</h2>
+                <p class="price" id="litePrice">$10/month</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <button>Sign Up</button>
+            </div>
+            <div class="plan">
+                <h2>Pro</h2>
+                <p class="price" id="proPrice">$20/month</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                </ul>
+                <button>Sign Up</button>
+            </div>
+            <div class="plan">
+                <h2>Enterprise</h2>
+                <p class="price" id="enterprisePrice">$30/month</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                    <li>Feature 5</li>
+                </ul>
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script src="static/js/pricing-component-with-toggle.js"></script>
+</body>
+</html>
